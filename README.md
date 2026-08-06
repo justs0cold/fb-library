@@ -1,4 +1,4 @@
-# fb-library
+# fb-library (v2.0.0)
 
 A modern C++ template library featuring high-performance utilities and compile-time concepts.
 
