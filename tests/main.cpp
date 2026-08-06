@@ -59,4 +59,7 @@ int main()
     static_assert(fb::is_same_v<declval_test, double>);
 
     static_assert(fb::is_same_v<fb::void_t<int, double, char>, void>);
+
+    static_assert(fb::is_same_v<fb::add_lvalue_reference_t<void>, void>);
+    static_assert(fb::is_trivially_copyable_v<int>);
 }
